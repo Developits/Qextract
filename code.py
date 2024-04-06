@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 
-file_path = r'C:\Users\Nahid\OneDrive\Desktop\CO.txt' #replace your filepath here
+file_path = r'C:\Users\nahid\Desktop\CO.txt' #replace your filepath here
 
 with open(file_path, 'r', encoding='utf-8') as file: #replace your file encoding here
     html_code = file.read() #read the file
